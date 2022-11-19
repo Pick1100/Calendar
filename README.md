@@ -1,99 +1,194 @@
-# 05 Third-Party APIs: Work Day Scheduler
 
-## Your Task
+<a name="Work Day Scheduler"></a>
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
 
-## User Story
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+<!-- PROJECT SHIELDS -->
 
-## Acceptance Criteria
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
 
-The following animation demonstrates the application functionality:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/Pick1100/Calendar">
+  </a>
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+  <h3 align="center">Daily Task Calendar</h3>
 
-## Grading Requirements
+  <p align="center">
+    <a href="https://github.com/Pick1100/Calendar"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Pick1100/Calendar">View Demo</a>
+    ·
+    <a href="https://github.com/Pick1100/Calendar/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Pick1100/Calendar/issues">Request Feature</a>
+  </p>
+</div>
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
 
-This Challenge is graded based on the following criteria:
 
-### Technical Acceptance Criteria: 40%
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-* Satisfies all of the above acceptance criteria plus the following:
 
-  * Uses a date utility library to work with date and time
 
-### Deployment: 32%
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-* Application deployed at live URL
+![Daily Task Calendar Screen Shot](/assets/images/screenshot.png)
 
-* Application loads with no errors
 
-* Application GitHub URL submitted
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-* GitHub repo contains application code
 
-### Application Quality: 15%
 
-* Application user experience is intuitive and easy to navigate
+### Built With
 
-* Application user interface style is clean and polished
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
 
-* Application resembles the mock-up functionality provided in the Challenge instructions
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Repository Quality: 13%
 
-* Repository has a unique name
 
-* Repository follows best practices for file structure and naming conventions
+<!-- GETTING STARTED -->
+## Getting Started
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+A handy way to schedule your time during the work day. The information you input will be stored locally for better performance and security. 
 
-* Repository contains multiple descriptive commit messages
+### Prerequisites
 
-* Repository contains quality README file with description, screenshot, and link to deployed application
+None! You  can use this project directly from GitHub.
 
-## Review
+### Installation
 
-You are required to submit the following for review:
+Use within the Page linked in the GitHub repository. THis will be located typically on the right side of the screen.
 
-* The URL of the deployed application
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-* The URL of the GitHub repository, with a unique name and a README describing the project
 
-- - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+A handy way to schedule your time during the work day. The information you input will be stored locally for better performance and security. 
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Add basic features and javascript
+- [x] Add file structures
+- [ ] Add multiple hours
+- [ ] Multi-language Support
+    - [ ] Chinese
+    - [ ] Spanish
+
+See the [open issues](https://github.com/Pick1100/Calendar/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+Project Link: [https://github.com/pick1100/calendar](https://github.com/pick1100/calendar)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Img Shields](https://shields.io)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/pick1100/calendar.svg?style=for-the-badge
+[contributors-url]: https://github.com/Pick1100/Calendar/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/pick1100/calendar.svg?style=for-the-badge
+[forks-url]: https://github.com/Pick1100/Calendar/network/members
+[stars-shield]: https://img.shields.io/github/stars/pick1100/calendar.svg?style=for-the-badge
+[stars-url]: https://github.com/Pick1100/Calendar/stargazers
+[issues-shield]: https://img.shields.io/github/issues/pick1100/calendar.svg?style=for-the-badge
+[issues-url]: https://github.com/Pick1100/Calendar/issues
+[license-shield]: https://img.shields.io/github/license/pick1100/calendar.svg?style=for-the-badge
+[license-url]: https://github.com/Pick1100/Calendar/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/pick1100
+[product-screenshot]: assets/images/screenshot.png
+
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 

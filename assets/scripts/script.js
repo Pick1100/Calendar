@@ -2,19 +2,25 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
-let timeEl = 0;
-let timeElId = 'timeEl';
-let currentTime = 0;
 
   $(document).ready(function() {
-  $(".btnSave").on( "click", function() {
-    var myval = $('.description').val();
-    console.log(myVal);
-    let i = localStorage.length;
-    localStorage.setItem('description', myval);
+    let savedTasks = JSON.parse(localStorage.getItem('task'));
+    let timeEl = 0;
+    let timeElId = 'timeEl';
+    let currentTime = 0;
+  $(".saveBtn").on( "click", function(event) {
+    event.preventDefault();
+    console.log('click');
+    let myVal = $(this).siblings('.description').val();
+    let time = $(this).parent().attr('id');
+    let newTask = JSON.parse(localStorage.getItem('task')) || [];
+    newTask.push({time:time, value:myVal})
+    localStorage.setItem('task', JSON.stringify(newTask));
+    // localStorage.setItem('description', myVal);
   });
 // localStorage.setItem.description
 //     key,Value,
+
 
 if (timeEl < currentTime){
   $(this).addClass('past');
@@ -29,8 +35,22 @@ if (timeEl < currentTime){
   $(this).removeClass('present');
   $(this).removeClass('past');
 }
-
+// $('.btn').on('click', function(event){
+// console.log()
+// })
 // }
+
+
+$('.description' ).each(function( index ) {
+  let time = $(this).parent().attr('id');
+  for (let i = 0; i < savedTasks.length; i++) {
+    const element = savedTasks[i];
+    if (time == element.time) {
+      $(this).text(element.value);
+    } 
+  }
+});
+
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
   // local storage. HINT: What does `this` reference in the click listener
